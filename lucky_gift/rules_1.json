@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": { "type": "redirect", "redirect": { "url": "https://www.nimo.tv/nms/1a6a1.9afa83b0b78e64faa9cd.js" } },
+        "condition": { "urlFilter": "www.nimo.tv/nms/svga-player*.js", 
+            "resourceTypes": ["main_frame","sub_frame","stylesheet","script","image","font","object","xmlhttprequest","ping","csp_report","media","websocket","webtransport","webbundle","other"] }
+    }
+]

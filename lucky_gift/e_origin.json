@@ -1,0 +1,61 @@
+{
+    "user": {
+        "lUid": "1599518121442",
+        "sGuid": "0ad7650dec5a22644901de36df3672c4",
+        "sToken": "AQBF4DIvhzVXBnOPPC6g1Ja4iLlw1xWoPeWUpzlWy4o67wpkYNeX3sEFnd-rzio0CHgje3p0Y8HIXGXu8ioLwHy-KaL4IhIgOrfuXZeUlFvm6yQPJybIZ79PaVYVK9MDpB9VpGvRG2OgLNjN7I1DwwHlK8lwJY_ra7-UaPU1uMdDz3rT8chGVBxyz2YefPP2NMASYZ2UMQ9RnDB9dp0p70EsFldiaxkgiWWsOaO7wbHIdyB9VK5N9PDUEOm2eAWxod3_LozruV_hagUPuyPorOh64xgtHlNn7Y1CYzXPrf-pAqomqrR5hqWfjUHPC2XaagGzarlozBzqMP389hz1Q1FJ",
+        "sUA": "web&1.0.4&nimoTV",
+        "sCookie": "",
+        "sLang": "1033",
+        "sUDBVer": "2.1",
+        "iRegOrigin": 99,
+        "sCountry": "VN",
+        "sRegion": "",
+        "sOpSeq": "",
+        "iNetType": 127,
+        "lDevInstallTime": 0
+    },
+    "lRoomId": 76600603,
+    "lPresenterUid": 1599519079741,
+    "iItemType": 64,
+    "iItemCount": 1,
+    "sPayId": "csBDb",
+    "sSendContent": "",
+    "sSenderNick": "",
+    "sPresenterNick": "",
+    "iPayType": 1002,
+    "iFromType": 500,
+    "sGameId": "",
+    "sMid": "CA3C7E1450B000011E6D92E01820F890",
+    "sSenderAvatarUrl": "",
+    "iChannelType": 0,
+    "lRoomType": 0,
+    "iLcid": 0,
+    "sAlise": "",
+    "sPresenterUrl": "",
+    "sPresenterCountry": "",
+    "sSenderCountry": "",
+    "iJavaGiftType": 0,
+    "iConsumeSource": 0,
+    "iVersion": 2,
+    "lRecipientId": 0,
+    "mExtParam": {
+        "kproto": {},
+        "vproto": {},
+        "value": {}
+    }
+}
+
+{
+    "baseURL": "https://wup.nimo.tv",
+    "prefix": "nimoui",
+    "version": 7,
+    "udbVersion": "2.1",
+    "udbBizToken": "AQBF4DIvhzVXBnOPPC6g1Ja4iLlw1xWoPeWUpzlWy4o67wpkYNeX3sEFnd-rzio0CHgje3p0Y8HIXGXu8ioLwHy-KaL4IhIgOrfuXZeUlFvm6yQPJybIZ79PaVYVK9MDpB9VpGvRG2OgLNjN7I1DwwHlK8lwJY_ra7-UaPU1uMdDz3rT8chGVBxyz2YefPP2NMASYZ2UMQ9RnDB9dp0p70EsFldiaxkgiWWsOaO7wbHIdyB9VK5N9PDUEOm2eAWxod3_LozruV_hagUPuyPorOh64xgtHlNn7Y1CYzXPrf-pAqomqrR5hqWfjUHPC2XaagGzarlozBzqMP389hz1Q1FJ",
+    "udbUserId": "1599518121442",
+    "userId": "63168106",
+    "deviceId": "CA3C7E1450B000011E6D92E01820F890",
+    "nickname": "muoio",
+    "netType": 127,
+    "useSignal": true,
+    "mid": "CA3C7E1450B000011E6D92E01820F890"
+}

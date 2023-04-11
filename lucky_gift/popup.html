@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <img src="./images/spin.png" class="center" style="height:50px">
+    <body background="images/photo.jpg">
+
+
+    <style>
+      button {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>      
+    <div>
+      <div>
+        <label class='label_keywords'>Nhập đường dẫn</label>
+        <input class='link' id='link' ></input>
+      </div>
+      <div style="padding-top: 5px;">
+        <label for="period" style="color: aliceblue;font-size: 20px;">Số tab </label>
+        <input type="number" id='num_tabs' class='nice_input' min="0">
+        <button id='open_tabs' style="background-color:darkgreen"  class='set_control'>RUN</button>
+      </div>
+
+      <div style="padding-top: 20px;">
+        <label style="color: aliceblue;font-size: 20px; ">Chon hop</label>
+        <select name="cars" id="bet_amount" class="nice_input">
+          <option value="30">Hop thuong</option>
+          <option value="300">Hop cao cap</option>
+        </select>
+      </div>
+
+      <div style="padding-top: 20px;">
+        <label for="period" style="color: aliceblue;font-size: 20px; ">Số gói tin của 1 lần gửi </label>
+        <input type="number" id='check_time' class='nice_input' min="0">
+      </div>
+      <div>
+        <label style="color: aliceblue;font-size: 20px; ">Auto start </label>
+        <input type="checkbox" checked="checked" id="auto_start" class="checkmark" >
+      </div>
+      <table>
+        <tr>
+          <th>Điểm tích</th>
+          <th>Chu kỳ gửi (ms)</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="number" class="score_auto_start" >
+          </td>
+          <td>          
+            <input type="number" class='click_period nice_input' min="0">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="number" class="score_auto_start" >
+          </td>
+          <td>          
+            <input type="number" class='click_period nice_input' min="0">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="number" class="score_auto_start" >
+          </td>
+          <td>          
+            <input type="number" class='click_period nice_input' min="0">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="js/popup.js"></script>
+  </body>
+</html>

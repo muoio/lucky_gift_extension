@@ -1,0 +1,311 @@
+{
+    "iCode": 0,
+    "tScoreInfo": {
+        "lRoomId": 76600603,
+        "iStatus": 1,
+        "iRemainTime": 85073,
+        "lCurScore": 50000,
+        "lNextScore": 50000,
+        "iNextTimestamp": 1681135200,
+        "lMinScore": 15000,
+        "lMaxScore": 50000,
+        "sCountry": "VN"
+    },
+    "vGiftList": [
+        {
+            "iItemType": 0,
+            "iItemCount": 1,
+            "iItemValue": 0,
+            "iBoxAwardType": 10,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/4AFF1C1DA669D9E15801FDC31E463480_1569699dcae8f9657a21a5d1d7b86b40.png",
+            "iItemId": 0,
+            "sItemName": ""
+        },
+        {
+            "iItemType": 7,
+            "iItemCount": 1,
+            "iItemValue": 15999,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/831CCC6D78D99612032871D08C690BE0_f39b71f83bd235d91e94194a06b9acfd.png",
+            "iItemId": 80,
+            "sItemName": "Rocket"
+        },
+        {
+            "iItemType": 164,
+            "iItemCount": 1,
+            "iItemValue": 9999,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/4712988136753AE708751C0E1A51AD9_e3461d1de515d79fc72ff43dbbeab96a.png",
+            "iItemId": 68,
+            "sItemName": "Private plane"
+        },
+        {
+            "iItemType": 161,
+            "iItemCount": 1,
+            "iItemValue": 999,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/9688A48A8806F4085720557093DBC72D_dc255778f909dda677100db9254b8f95.png",
+            "iItemId": 79,
+            "sItemName": "sword"
+        },
+        {
+            "iItemType": 58,
+            "iItemCount": 1,
+            "iItemValue": 299,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/9BFDDEA4EE8F246017C9E80E19E90B45_f8f94939a91ef7a9be6a16dc989722a4.png",
+            "iItemId": 78,
+            "sItemName": "scooter"
+        },
+        {
+            "iItemType": 89,
+            "iItemCount": 1,
+            "iItemValue": 199,
+            "iBoxAwardType": 8,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/FA5AF069D134D610F12D6180DC31D46_05a4b6bc79694da9fa4efe788ba191ec.png",
+            "iItemId": 76,
+            "sItemName": "Sports car segment"
+        },
+        {
+            "iItemType": 67,
+            "iItemCount": 5,
+            "iItemValue": 30,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/7C6EC4A78BEAF134D208B1059509EF56_d78fea1e956b83c715dace951d85163c.png",
+            "iItemId": 75,
+            "sItemName": "Fan Ticket"
+        },
+        {
+            "iItemType": 197,
+            "iItemCount": 400,
+            "iItemValue": 1,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/431665C78ADA40F57B4297C1366B1304_02c757d0ffc6ca4a17ea747c231c1b1f.png",
+            "iItemId": 81,
+            "sItemName": "Dragon Ball"
+        },
+        {
+            "iItemType": 429,
+            "iItemCount": 300,
+            "iItemValue": 0,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/E57BF300BCA9CCB8E47111F26751A356_aa562f25be415b5a4d132a5c64ca21d8.png",
+            "iItemId": 73,
+            "sItemName": "Light sign"
+        }
+    ],
+    "vRecordList": [
+        {
+            "lUid": 1629513756008,
+            "lRoomId": 37993001,
+            "iTimeStamp": 1681050122,
+            "iSendItemType": 64,
+            "iSendItemCount": 1,
+            "iGiftBoxType": 0,
+            "iGiftBoxCount": 1,
+            "vRecvItem": [
+                {
+                    "iItemType": 132,
+                    "iItemCount": 1,
+                    "iItemValue": 999,
+                    "iBoxAwardType": 4,
+                    "sIconUrl": "https://web-ops.nimostatic.tv/gift/207D5D6479CDE0753F9CF209CC06511A_2f8fe9e3da7b9eb891350c2e855b8c36.png",
+                    "iItemId": 72,
+                    "sItemName": "kabedon"
+                }
+            ],
+            "sSendName": "Nghĩa Nớ",
+            "sRecvName": "Kít Tii",
+            "lAnchorUid": 1599515658042
+        },
+        {
+            "lUid": 1629513756008,
+            "lRoomId": 37993001,
+            "iTimeStamp": 1681050123,
+            "iSendItemType": 64,
+            "iSendItemCount": 1,
+            "iGiftBoxType": 0,
+            "iGiftBoxCount": 1,
+            "vRecvItem": [
+                {
+                    "iItemType": 67,
+                    "iItemCount": 1,
+                    "iItemValue": 30,
+                    "iBoxAwardType": 4,
+                    "sIconUrl": "https://web-ops.nimostatic.tv/gift/7C6EC4A78BEAF134D208B1059509EF56_d78fea1e956b83c715dace951d85163c.png",
+                    "iItemId": 65,
+                    "sItemName": "Fan Ticket"
+                }
+            ],
+            "sSendName": "Nghĩa Nớ",
+            "sRecvName": "Kít Tii",
+            "lAnchorUid": 1599515658042
+        },
+        {
+            "lUid": 1629513756008,
+            "lRoomId": 37993001,
+            "iTimeStamp": 1681050124,
+            "iSendItemType": 64,
+            "iSendItemCount": 1,
+            "iGiftBoxType": 0,
+            "iGiftBoxCount": 1,
+            "vRecvItem": [
+                {
+                    "iItemType": 67,
+                    "iItemCount": 1,
+                    "iItemValue": 30,
+                    "iBoxAwardType": 4,
+                    "sIconUrl": "https://web-ops.nimostatic.tv/gift/7C6EC4A78BEAF134D208B1059509EF56_d78fea1e956b83c715dace951d85163c.png",
+                    "iItemId": 65,
+                    "sItemName": "Fan Ticket"
+                }
+            ],
+            "sSendName": "Nghĩa Nớ",
+            "sRecvName": "Kít Tii",
+            "lAnchorUid": 1599515658042
+        }
+    ],
+    "lRoomId": 76600603,
+    "tLastLuckyWinner": {
+        "lUid": 1599518908635,
+        "lRoomId": 13754190,
+        "iTimeStamp": 1681048982,
+        "iSendItemType": 64,
+        "iSendItemCount": 10,
+        "iGiftBoxType": 1,
+        "iGiftBoxCount": 1,
+        "vRecvItem": [
+            {
+                "iItemType": 0,
+                "iItemCount": 1,
+                "iItemValue": 40001,
+                "iBoxAwardType": 10,
+                "sIconUrl": "",
+                "iItemId": 0,
+                "sItemName": ""
+            }
+        ],
+        "sSendName": "Anh 2",
+        "sRecvName": "Cheng2k5",
+        "lAnchorUid": 1629525083869
+    },
+    "vSmallGiftList": [
+        {
+            "iItemType": 132,
+            "iItemCount": 1,
+            "iItemValue": 999,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/207D5D6479CDE0753F9CF209CC06511A_2f8fe9e3da7b9eb891350c2e855b8c36.png",
+            "iItemId": 72,
+            "sItemName": "kabedon"
+        },
+        {
+            "iItemType": 188,
+            "iItemCount": 1,
+            "iItemValue": 299,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/F9672DA98A2BAD54314D5CFDF108C71D_73e40952a4ca040a6a59f9c62f21cd5a.png",
+            "iItemId": 67,
+            "sItemName": "Heart of the Sea"
+        },
+        {
+            "iItemType": 67,
+            "iItemCount": 1,
+            "iItemValue": 30,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/7C6EC4A78BEAF134D208B1059509EF56_d78fea1e956b83c715dace951d85163c.png",
+            "iItemId": 65,
+            "sItemName": "Fan Ticket"
+        },
+        {
+            "iItemType": 197,
+            "iItemCount": 10,
+            "iItemValue": 1,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/431665C78ADA40F57B4297C1366B1304_02c757d0ffc6ca4a17ea747c231c1b1f.png",
+            "iItemId": 66,
+            "sItemName": "Dragon Ball"
+        },
+        {
+            "iItemType": 429,
+            "iItemCount": 30,
+            "iItemValue": 0,
+            "iBoxAwardType": 4,
+            "sIconUrl": "https://web-ops.nimostatic.tv/gift/E57BF300BCA9CCB8E47111F26751A356_aa562f25be415b5a4d132a5c64ca21d8.png",
+            "iItemId": 64,
+            "sItemName": "Light sign"
+        }
+    ],
+    "vCountrySuperScore": [
+        {
+            "lRoomId": 0,
+            "iStatus": 1,
+            "iRemainTime": 85073,
+            "lCurScore": 50000,
+            "lNextScore": 50000,
+            "iNextTimestamp": 1681135200,
+            "lMinScore": 15000,
+            "lMaxScore": 50000,
+            "sCountry": "VN"
+        },
+        {
+            "lRoomId": 0,
+            "iStatus": 1,
+            "iRemainTime": 85073,
+            "lCurScore": 50000,
+            "lNextScore": 50000,
+            "iNextTimestamp": 1681135200,
+            "lMinScore": 15000,
+            "lMaxScore": 50000,
+            "sCountry": "ID"
+        },
+        {
+            "lRoomId": 0,
+            "iStatus": 0,
+            "iRemainTime": 13073,
+            "lCurScore": 7061,
+            "lNextScore": 0,
+            "iNextTimestamp": 1681063200,
+            "lMinScore": 15000,
+            "lMaxScore": 50000,
+            "sCountry": "TR"
+        },
+        {
+            "lRoomId": 0,
+            "iStatus": 0,
+            "iRemainTime": 85073,
+            "lCurScore": 6254,
+            "lNextScore": 0,
+            "iNextTimestamp": 1681135200,
+            "lMinScore": 15000,
+            "lMaxScore": 50000,
+            "sCountry": "TH"
+        },
+        {
+            "lRoomId": 0,
+            "iStatus": 2,
+            "iRemainTime": 45473,
+            "lCurScore": 24691,
+            "lNextScore": 0,
+            "iNextTimestamp": 1681095600,
+            "lMinScore": 15000,
+            "lMaxScore": 50000,
+            "sCountry": "HN"
+        },
+        {
+            "lRoomId": 0,
+            "iStatus": 0,
+            "iRemainTime": 13073,
+            "lCurScore": 6405,
+            "lNextScore": 0,
+            "iNextTimestamp": 1681063200,
+            "lMinScore": 15000,
+            "lMaxScore": 50000,
+            "sCountry": "EG"
+        }
+    ],
+    "sCountry": "VN",
+    "iRequestId": 142,
+    "funcName": "getBoxPanelInfo",
+    "returnValue": 0
+}
