@@ -81,6 +81,16 @@ function getAllCookies() {
   
     return cookies;
 }
+function getAllParams(){
+    let url = document.location.href;
+    let queryString = url.match(/\?(.*)/)[1];
+    let pairs = queryString.split("&");
+    let json = pairs.reduce((acc, pair) => {
+        let [key, value] = pair.split("=");
+        return { ...acc, [key]: value };
+    }, {});
+    return json
+}
 function info_table(){
     function dragElement(elmnt) {
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -129,8 +139,8 @@ function info_table(){
     note.id = 'injected_note';
     note.style.backgroundColor = "white";
     note.style.position = "absolute";
-    note.style.width = "800px";
-    note.style.height = "1000px";
+    note.style.width = "400px";
+    note.style.height = "600px";
     note.style.borderStyle = 'groove';
     note.style.top = localStorage['top_position'];
     note.style.left = localStorage['left_position'];
@@ -144,42 +154,23 @@ function info_table(){
     note_header.style.backgroundColor = 'SkyBlue'
     note.appendChild(note_header);
 
-    let send_info = document.createElement('div');
-    let send_success_label = document.createElement('label');
-    send_success_label.textContent = 'Lượt gửi thành công ';
-    let send_success_num = document.createElement('label');
-    send_success_num.id = 'send_success_num';
-    send_success_num.style.color = 'Navy';
-    send_success_num.textContent = '0';
-    send_success_num.style.fontWeight = 'bold';
-    send_info.appendChild(send_success_label);
-    send_info.appendChild(send_success_num);
-    note.appendChild(send_info);
 
     let inject_frame = document.createElement('iframe');
     inject_frame.id = 'inject_frame';
-    inject_frame.src = 'http://127.0.0.1:5500/';//'https://muoio.github.io/luckgift2/';
+    inject_frame.src = 'https://muoio.github.io/luckgift2/';
     inject_frame.allowFullscreen = true;
     inject_frame.style.width = '100%';
     inject_frame.style.height = '80%';
 
-    // inject_frame.addEventListener('load', function() {
-    //     let innerDoc = inject_frame.contentDocument || inject_frame.contentWindow.document;
-    //     var cookies = document.cookie.split('; ');
-    //     for (var i = 0; i < cookies.length; i++) {
-    //         var cookie = cookies[i];
-    //         var name = cookie.split('=')[0];
-    //         var value = cookie.split('=')[1];
-    //         innerDoc.cookie = name + '=' + value + '; domain=' + inject_frame.src.split('/')[2] + '; path=/';
-    //     }
-    // });
-    send_success_label.onclick = function(){
-        let cookies = JSON.stringify(getAllCookies());
-        inject_frame.contentWindow.postMessage('cookies', '*');
-    }
-    
-
+    inject_frame.addEventListener('load', function() {
+        let params = getAllParams();
+        let cookies = getAllCookies();
+        let message = {greeting:'load_variables', params:params, cookies:cookies}
+        inject_frame.contentWindow.postMessage(JSON.stringify(message), '*');
+    });
     note.appendChild(inject_frame);
+
+
 
     note.addEventListener('click', function(event) {
         event.stopPropagation();
@@ -190,9 +181,5 @@ function info_table(){
 }
 
 window.onload = async function(){
-    //add_css();
-    // add_svga_player();
-    add_9ef4b();
     document.body.appendChild(info_table());
-    //loop_check_score = setInterval(check_score,500);
 }

@@ -26,32 +26,8 @@
       "<all_urls>"
     ],
     "permissions":[
-      "sessions",
       "activeTab",
       "tabs",
-      "storage",
-      "contextMenus",
-      "scripting",
-      "declarativeNetRequest",
-      "declarativeNetRequestFeedback",
-      "debugger",
-      "management"
-    ],
-    "declarative_net_request" : {
-      "rule_resources" : [{
-        "id": "ruleset_1",
-        "enabled": false,
-        "path": "rules_1.json"
-      },
-      {
-        "id": "ruleset_2",
-        "enabled": true,
-        "path": "rules_2.json"
-      }
+      "storage"
     ]
-    },
-    "web_accessible_resources": [{
-      "resources": ["inject/*"],
-      "matches": ["<all_urls>"]
-    }]
   }
